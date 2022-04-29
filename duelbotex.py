@@ -13,7 +13,7 @@ import bs4
 # APIのアレ
 import json
 
-DISCORD_BOT_TOKEN = 'ここにトークンを張り付け'
+TOKEN = 'ここにトークンを張り付け'
 
 client = discord.Client()
 
