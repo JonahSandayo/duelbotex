@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 #coding UTF-8
-import sys
-sys.path.append('/home/pi/.local/lib/python3.9/site-packages')
 import discord
 from os import getenv
 # ダイスロールとコイントス用のランダムライブラリだよ
