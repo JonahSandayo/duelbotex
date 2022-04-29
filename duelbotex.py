@@ -59,7 +59,7 @@ async def on_message(message):
 
     # ヘルプテキスト
     if messageBody == 'help':
-        embed = discord.Embed(title="コマンドリスト",description="coin:コイントスを行い、表/裏を表示\ndice:ダイスロールを行い、1～6を表示\nt:カード検索[tt カード名][ｔｔ カード名]も有効\nT カードNo:カードナンバー検索を行いテキスト表示\nzako:メンション付きで煽ります\nyowa:メンションなしで煽ります\ndraw:カードをランダムに一枚ドローします\n",color=discord.Colour.from_rgb(171, 219, 255))
+        embed = discord.Embed(title="コマンドリスト",description="coin:コイントスを行い、表/裏を表示\ndice:ダイスロールを行い、1～6を表示\nt:カード検索[tt カード名][ｔｔ カード名]も有効\nT カードNo:カードナンバー検索を行いテキスト表示\ndraw:カードをランダムに一枚ドローします\n",color=discord.Colour.from_rgb(171, 219, 255))
         await message.channel.send(embed=embed)
         return
 
