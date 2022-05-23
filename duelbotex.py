@@ -17,9 +17,6 @@ client = discord.Client()
 
 cardList = []
 
-@client.event
-async def on_ready():
-    await client.change_presence(activity=discord.Activity(name='helpでヘルプが出るわ', type=discord.ActivityType.watching))
 
 
 @client.event
