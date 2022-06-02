@@ -192,16 +192,12 @@ def searchCardName(argName):
         textList.append('カード名検索\n' + elem.text + '\n')
 
     # カードのテキスト取得
-    i = 0
-    elems = soup.select('.atk_power')
-    for elem in elems:
-        textList[i] = textList[i] + elem.get_text('\n').strip()
-        i += 1
+    i=0
+    
+    elems = soup.select('.box_card_spec')
 
-    i = 0
-    elems = soup.select('.def_power')
     for elem in elems:
-        textList[i] = textList[i] + elem.get_text('\n').strip()+('\n')
+        textList[i] = textList[i]+elem.get_text('\n').replace('\t','').replace('\n','').replace('\r','')+'\n'
         i += 1
     
     i = 0
