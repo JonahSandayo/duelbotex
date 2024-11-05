@@ -2,13 +2,13 @@
 #coding UTF-8
 import discord
 from os import getenv
-# ダイスロールとコイントス用のランダムライブラリだよ
+# ダイスロールとコイントス用のランダムライブラリ
 import random
-# HTTPリクエスト用のライブラリだよ
+# HTTPリクエスト用のライブラリ
 import requests
-# HTTPレスポンス解析用のライブラリだよ
+# HTTPレスポンス解析用のライブラリ
 import bs4
-# APIのアレ
+# API
 import json
 
 TOKEN = 'ここにトークンを張り付け'
